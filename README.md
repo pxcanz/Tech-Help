@@ -16,36 +16,36 @@ If the PLC (device) is 192.168.1.10 and that is the only device plugged into you
 ### Configuring your PC settings
 1. Press WIN-R to bring up the _Run_ Window. Alternativaly you can search for _Run_ in the start menu.
 
-![Windows Run](https://github.com/user-attachments/assets/acc73218-2f87-4992-bd30-809487185ed0)
+![Windows Run](https://github.com/user-attachments/assets/2e617400-d837-4424-8dd6-2dafd8a8f475)
 
 2. Type in `ncpa.cpl` and press _OK_
 
-![image](https://github.com/user-attachments/assets/4c8cb07c-1023-4a8b-b0fa-bc75c275c2ed)
+![Screenshot 2024-12-11 112054](https://github.com/user-attachments/assets/0844756b-ffdb-4163-82fc-846fbccbc3ca)
 
 3. You will see multiple adapters as shown above. You can plug and unplug the device (PLC) from your PC to determine which one is correct
 4. Right click on the adapter you want to change and press _Properties_.
 5. Double click on _Internet Protocol Version 4 (TCP/IPv4)_
 
-![image](https://github.com/user-attachments/assets/9d3a5c20-24c4-4f41-b7c6-b65361724fda)
+![Screenshot 2024-12-11 112301](https://github.com/user-attachments/assets/f64ef90d-520f-40e5-9ca6-6888b23ce9d4)
 
 6. Change the address accordingly
 
-![image](https://github.com/user-attachments/assets/135ab923-0d8c-4568-b571-57561278d3f7)
+![Screenshot 2024-12-11 112345](https://github.com/user-attachments/assets/19af2ba1-3fe5-4fb8-9f0e-75752c5425cf)
 
 ### Confirm connection to PLC
 1. Open up command prompt by entering `cmd` into your start menu
 2. type in `ping <ip-address>`. Going off the example above it would be `ping 192.168.1.10`.
 
-![image](https://github.com/user-attachments/assets/c2b5424c-5860-46af-8f37-b2738765bf6b)
+![Screenshot 2024-12-11 113811](https://github.com/user-attachments/assets/6d4f001a-ca73-48ac-97f6-3f945e98ee1e)
 
 If you don't get a response, like shown below, 
 
-![image](https://github.com/user-attachments/assets/b7d2d0da-b6a9-4812-9e12-7016660567a9)
+![Screenshot 2024-12-11 114046](https://github.com/user-attachments/assets/3f4f733a-c1a4-4e0b-8eb2-5a55e2dbde16)
 
 1. Check the cable is connected properly,
 2. Check you have typed in the correct IP address for the PLC
 3. Type in `ipconfig` into command prompt (and press enter). Check that you can see the configuration you entered. Commonly, if you can't see this, it is because the pop-up windows are not closed to prompt the PC to 'save' the configuration. _Note: there will likely be mutliple, so double check the configuration you look at matches the adapter you changed._
 
-![image](https://github.com/user-attachments/assets/6ceda48d-e55c-4107-8318-9fade3c4cad7)
+![image](https://github.com/user-attachments/assets/ee58c5c0-afca-4230-bb48-d825afb1f8a5)
 
 If something wasn't correct, retry the `ping` command as before. (You can press the up-arrow as needed to save you retyping it.)

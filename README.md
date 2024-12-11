@@ -38,7 +38,7 @@ If the PLC (device) is 192.168.1.10 and that is the only device plugged into you
 
 ![Screenshot 2024-12-11 113811](https://github.com/user-attachments/assets/6d4f001a-ca73-48ac-97f6-3f945e98ee1e)
 
-If you don't get a response, like shown below, 
+If you don't get a response (that looks similar to below): 
 
 ![Screenshot 2024-12-11 114046](https://github.com/user-attachments/assets/3f4f733a-c1a4-4e0b-8eb2-5a55e2dbde16)
 

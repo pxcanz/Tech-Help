@@ -1,6 +1,6 @@
 The guides are categorised into the different product lines:
 
-| Product Line                      | Examples                          |
+| Business Area                     | Business Unit                     |
 |-----------------------------------|-----------------------------------|
 | **Automation Technology**         | [PLCs](#plcs)       |
 |                                   | I/O Systems                       |

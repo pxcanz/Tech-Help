@@ -23,7 +23,7 @@ The guides are categorised into the different product lines:
 | ----- | ------------|
 | [Configuration](Automation/PLC/PLCnext/Node-Red/configuration.md) | Install and configure Node-Red on PLCnext | 
 
-## Industrial PCs and HMIs
+# Industrial PCs and HMIs
 | Title | Description |
 | ----- | ------------|
 | [OPC UA Client](Automation/HMI/visu-opcua-client.md) | Configure OPC UA Client on Visu+ |

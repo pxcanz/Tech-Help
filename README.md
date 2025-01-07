@@ -2,26 +2,30 @@ The guides are categorised into the different product lines:
 
 | Product Line                      | Examples                          |
 |-----------------------------------|-----------------------------------|
-| **Automation Technology**         | PLCs                             |
+| **Automation Technology**         | [PLCs](#plcs)       |
 |                                   | I/O Systems                       |
-|                                   | Industrial PCs and HMIs          |
-|                                   | Software solutions for automation |https://github.com/declan-pxc/Tech-Help/tree/main
-| **Connectivity**                  | Connectors                        |
-|                                   | Cables and lines                  |
-|                                   | PCB terminal blocks and connectors |
-|                                   | Device connection technology      |
-| **Marking, Mounting, and Installation** | Terminal blocks               |
-|                                   | Marking materials                 |
-|                                   | Control cabinet accessories       |
-|                                   | Tools for assembly and installation |
-| **Supply, Charging, and Protection** | Power supplies                  |
-|                                   | Uninterruptible Power Supplies (UPS) |
-|                                   | Surge protection devices          |
-|                                   | Charging technology for e-mobility |
-| **Switching, Measuring, and Monitoring** | Relays and optocouplers     |
-|                                   | Signal conditioners               |
-|                                   | Energy monitoring systems         |
-|                                   | Motor starters and electronic switching devices |
-| **Industrial Communication**      | Network infrastructure components |
-|                                   | Wireless communication systems    |
-|                                   | Fieldbus components               |
+|                                   | [Industrial PCs and HMIs](#industrial-pcs-and-hmis) |
+|                                   | Software solutions for automation |
+
+# PLCs
+| Title | Description |
+| ----- | ------------|
+| [PLCnext](#plcnext) | PLCnext Technology |
+## [PLCnext](https://github.com/pxcanz/Tech-Help/tree/main/Automation/PLC/PLCnext)
+| Title | Description |
+| ----- | ------------|
+| [Multiple IP Addresses](Automation/PLC/PLCnext/multiple-ip-addresses.md) | Configure multiple IP addresses on interface for PLCnext |
+| [OPC UA Server](Automation/PLC/PLCnext/opcua-server.md) | Configure OPC UA Server on PLCnext Engineer |
+| [Node-Red](#node-red) | |
+
+### [Node-Red](Automation/PLC/PLCnext/Node-Red)
+| Title | Description |
+| ----- | ------------|
+| [Configuration](Automation/PLC/PLCnext/Node-Red/configuration.md) | Install and configure Node-Red on PLCnext | 
+
+## Industrial PCs and HMIs
+| Title | Description |
+| ----- | ------------|
+| [OPC UA Client](Automation/HMI/visu-opcua-client.md) | Configure OPC UA Client on Visu+ |
+| [Etherent/IP](Automation/HMI/visu-siemens-and-rockwell.md#ethernetip) | Configure Ethernet/IP on Visu+ |
+| [Siemens](Automation/HMI/visu-siemens-and-rockwell.md#siemens) | Configure connection to Siemens PLC on Visu+ |

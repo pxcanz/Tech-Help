@@ -5,7 +5,7 @@ Follow these steps to configure:
 1. Go to the WBM
 2. Navigate to _Configuration > Web Services_
 3. Click on _Re-generate HTTPS certificate_. Note that if IP address is changed, this process will need to be repeated.
-4. __Click _Apply____
+4. __Click _Apply___
 5. Navigate to _Security > Certificate Authentication_
 6. Click on the tab _Identity Stores_
 7. Click on the certificate download button
